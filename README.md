@@ -6,11 +6,13 @@
 2) replace your vite.config.ts with icons path, output sprite path and add custom transform for svg files.
 3) Use it like svg-sprite-loader
 
-    import twitterLogo from './logos/twitter.svg';
-    // twitterLogo === SpriteSymbol<id: string, viewBox: string, content: string>
-    // Extract mode: SpriteSymbol<id: string, viewBox: string, url: string, toString: Function>
+```
+    <script>
+    import twitterLogo from './icons/twitter.svg';
+    </scipt>
     
-    const rendered = `
     <svg viewBox="${twitterLogo.viewBox}">
     <use xlink:href="#${twitterLogo.id}" />
-    </svg>`;
+    </svg>
+
+```
