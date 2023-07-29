@@ -12,7 +12,7 @@ export default defineConfig({
         }),
         transformSvg({
             icons: './src/sprite/sprite.svg',
-            outputUrlPath: '/src/icons',
+            outputUrlPath: './src/icons',
         }),
     ],
 });
