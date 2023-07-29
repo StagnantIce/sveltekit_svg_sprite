@@ -8,11 +8,11 @@ export default defineConfig({
     plugins: [sveltekit(),
         ViteSvgSpriteWrapper({
             icons: './src/icons/*.svg',
-            outputDir: 'src/sprite/',
+            outputDir: './src/sprite/',
         }),
         transformSvg({
-            icons: './src/sprite-svg',
-            outputUrlPath: '/src/lib/images',
+            icons: './src/sprite/sprite.svg',
+            outputUrlPath: '/src/icons',
         }),
     ],
 });
