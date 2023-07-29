@@ -1,5 +1,5 @@
 
-# Svg sprite loader for vite (similar https://github.com/JetBrains/svg-sprite-loader)
+# Svg sprite loader for vite in sveltekit (similar https://github.com/JetBrains/svg-sprite-loader)
 
 
 1) npm i --dev vite-svg-sprite-wrapper
